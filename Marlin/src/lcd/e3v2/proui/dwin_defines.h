@@ -39,24 +39,24 @@
   #define HAS_ZOFFSET_ITEM 1
 #endif
 
-#define defColorBackground  RGB( 1, 12,  8)
-#define defColorCursor      RGB(20, 49, 31)
-#define defColorTitleBg     RGB( 0, 23, 16)
+#define defColorBackground  RGB( 1,  2,  1)
+#define defColorCursor      RGB(29, 49, 15)
+#define defColorTitleBg     RGB( 2,  9,  5)
 #define defColorTitleTxt    COLOR_WHITE
 #define defColorText        COLOR_WHITE
-#define defColorSelected    COLOR_SELECT
-#define defColorSplitLine   RGB( 0, 23, 16)
+#define defColorSelected    RGB( 6, 29, 27)
+#define defColorSplitLine   RGB( 7, 19, 10)
 #define defColorHighlight   COLOR_WHITE
-#define defColorStatusBg    RGB( 0, 23, 16)
-#define defColorStatusTxt   COLOR_YELLOW
-#define defColorPopupBg     COLOR_BG_WINDOW
-#define defColorPopupTxt    COLOR_POPUP_TEXT
-#define defColorAlertBg     COLOR_BG_RED
-#define defColorAlertTxt    COLOR_YELLOW
-#define defColorPercentTxt  COLOR_PERCENT
-#define defColorBarfill     COLOR_BARFILL
-#define defColorIndicator   COLOR_WHITE
-#define defColorCoordinate  COLOR_WHITE
+#define defColorStatusBg    RGB( 1, 2, 1)
+#define defColorStatusTxt   RGB(31, 56, 15)
+#define defColorPopupBg     RGB(6, 15, 8)
+#define defColorPopupTxt    RGB(26, 53, 26)
+#define defColorAlertBg     RGB(30, 0, 15)
+#define defColorAlertTxt    RGB(31, 56, 15)
+#define defColorPercentTxt  RGB(31, 49, 9)
+#define defColorBarfill     RGB(2, 7, 4)
+#define defColorIndicator   RGB(31, 63, 31)
+#define defColorCoordinate  RGB(31, 63, 31)
 #define defColorButton      RGB( 0, 23, 16)
 #define defColorLeds        0xFFFFFFFF
 #define defCaseLightBrightness 255
